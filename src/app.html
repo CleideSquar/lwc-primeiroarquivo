@@ -1,6 +1,6 @@
 <template>
   <lightning-card>
-    <div class="slds-m-arround_medium">
+    <div class="slds-m-arround_medium" if:true={visible}>
       <h1 class="slds-text-heading_large">
         Olá Mundo
       </h1>
@@ -26,9 +26,10 @@
       <p>Instagram: <a href={instagram} target="_blanck">Clique aqui</a></p>
       <p>LinkedIn: <a href={linkedin} target="_black">Clique aqui</a></p>
 
-
-
     </div>
+    <lightning-button variant="brand" label="Brand" title="Alterar Visible" onclick={trocarDiv}
+      class="slds-m-left_x-small"></lightning-button>
+
 
 
   </lightning-card>
