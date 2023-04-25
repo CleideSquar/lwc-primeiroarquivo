@@ -12,4 +12,10 @@ email= "dev.squar@gmail.com";
 instagram = "https://www.instagram.com";
 linkedIn = "https://www.linkedin.com/";
 
+visible = true;
+
+trocarDiv(){
+this.visible = !this.visible;
+}
+
 }
